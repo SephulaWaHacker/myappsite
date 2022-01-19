@@ -1,21 +1,255 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-html, body {
-  margin: 0;
-  border: 0;
-  padding: 0;
+body {
+  font-family: "Lato", sans-serif;
   background-color: #fff;
 }
 
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
+.sidenav {
+height: 100%;
+width: 5%;
+z-index: 1;
+left: 0;
+top: 0;
+position: fixed;
+padding-top: 20px;
+overflow-x: hidden;
+border-right: solid #000 5px;
 }
 
-main > h1 {
-  text-align: center;
-  font-size: 3.5em;
+.sidenav a {
+font-size: 25px;
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+display: block;
+color: #000;
+margin-bottom: 5px;
+}
+
+.sidenav a:hover {
+color: #818181;
+}
+
+.main {
+height: 100%;
+margin-left: 4%;
+padding: 0px 11px;
+}
+
+.banner {
+padding: 50px 0px 5px 30px;
+background-image: url("https://via.placeholder.com/468x60?text=468x60+Full+Banner");
+}
+
+.info {
+font-size: large;
+font-weight: bold;
+}
+
+span a {
+text-decoration: none;
+color: #000;
+}
+
+.tape {
+border-bottom: solid #000 2px;
+border-top: solid #000 2px;
+}
+
+.user-image {
+border: solid #000 5px;
+}
+
+.righty {
+float: right;
+margin-top: -5px;
+}
+
+.inline {
+float: left;
+}
+
+.posts {
+width: 65%;
+margin: 15px 0px 0px 0px;
+padding-left: 50px;
+}
+
+.associcates {
+margin: 5px 0px 0px 5px;
+width: 25%;
+}
+
+.user {
+display: inline;
+}
+
+.mysite {
+text-decoration: none;
+color: #000;
+}
+
+.pline { 
+display: inline-block;
+padding-right: 0.5em;
+margin: 5px 0px 0px 0px;
+}
+
+.line {
+display: inline-block;
+border-top: solid #000 2px ;
+width: 12em;
+height: 0.2em;
+}
+
+.cirles {
+margin-top: 5px;
+margin-left: 15px;
+}
+
+.circle {
+display: inline-block;
+font-size: 50px;
+text-decoration: none;
+color: #000;
+border: solid #000 1px;
+margin-top: 5px !important; 
+}
+
+.card {
+font-size: 25px;
+margin-bottom: 10px;
+}
+
+.card-items {
+border: solid #000 2px;
+display: inline-block;
+width: 17.2em;
+height: 1.5em;
+}
+
+.dummy-input {
+width: 20em;
+margin: 0px 5px 2px 5px;
+border: solid #000 1px;
+font-weight: 800;
+}
+
+.card-image {
+display: inline-block;
+font-size: 110%;
+text-decoration: none;
+color: #000;
+border: solid #000 1px;
+margin-top: 5px !important; 
+}
+
+.post-card {
+font-size: 25px;
+margin-bottom: 10px;
+}
+
+.post-card .card-items {
+border: solid #000 2px;
+display: inline-block;
+margin-top: 5px;
+/* padding: 0px 0px 0px 4px; */
+width: 17em;
+height: 6.5em;
+color: #000;
+} 
+
+.row1 {
+font-size: 15px;
+display: block;
+}
+
+.row1 i {
+float: right;
+margin-right: 5px;
+font-size: 1.3em;
+}
+
+
+.row2 {
+font-size: 0.5em;
+margin-top: -2.4em;
+display: block;
+}
+
+.fa-times-circle {
+font-size: 70px;
+color: #000;
+}
+
+.times-circle {
+display: inline-block;
+margin-top: -0.7em;
+}
+
+.times-circle .times-link{
+vertical-align: top;
+}
+
+.times-circle p {
+font-size: 0.5em;
+margin-top: -0.1em;
+word-wrap: break-word;
+}
+.bold-link {
+display: block;
+color: #000;
+text-decoration: none;
+font-size: 0.6em;
+line-height: 1em;
+}
+
+.mini-tape {
+border-top: solid #000 2px;
+font-size: 0.75em;
+}
+
+.comments {
+border: solid #000 2px;
+border-top: none;
+display: block;
+margin-left: 1.6em;
+overflow: auto;
+width: 16.5em;
+}
+.comments button:hover {
+background-color: #808080;
+}
+
+.comments i {
+font-size: 1.3em;
+}
+
+.comment .card-image {
+font-size: 0.5em;
+vertical-align: top;
+}
+
+.comment {
+margin-top: 0.2em;
+}
+
+.comment-text {
+font-size: x-small;
+display: inline-block;
+width: 85%;
+word-wrap: break-word;
+margin-left: 1em;
+margin-top: 0.4em;
+}
+
+.trash {
+float: right;
+font-size: 0.4em;
+margin-top: 0.9em;
+display: inline-block;
+}
+
+.trash:hover {
+background-color: #808080;
+border: solid #000 1px;
+font-size: 0.45em;
 }
